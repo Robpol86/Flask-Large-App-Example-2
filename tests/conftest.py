@@ -1,5 +1,3 @@
-import xmlrpclib
-
 import pytest
 
 from github_status.application import create_app, get_config

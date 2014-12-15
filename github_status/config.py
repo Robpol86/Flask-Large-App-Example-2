@@ -8,7 +8,7 @@ class HardCoded(object):
     here.
     """
     ADMINS = ['me@me.test']
-    DB_MODELS_IMPORTS = ()
+    DB_MODELS_IMPORTS = ('repositories',)
     ENVIRONMENT = property(lambda self: self.__class__.__name__)
     _SQLALCHEMY_DATABASE_DATABASE = 'github_status'
     _SQLALCHEMY_DATABASE_HOSTNAME = 'localhost'

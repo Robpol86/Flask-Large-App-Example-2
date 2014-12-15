@@ -1,0 +1,4 @@
+httpretty
+pytest-cov
+pytest-httpretty
+-e git://github.com/mverteuil/pytest-ipdb.git#egg=pytest-ipdb

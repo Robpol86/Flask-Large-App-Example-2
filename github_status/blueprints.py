@@ -11,8 +11,8 @@ def _factory(partial_module_string, url_prefix):
     """Generates blueprint objects for view modules.
 
     Positional arguments:
-    partial_module_string -- string representing a view module without the absolute path (e.g. 'home.index' for
-        pypi_portal.views.home.index).
+    partial_module_string -- string representing a view module without the absolute path (e.g. 'repos.index' for
+        github_status.views.repos.index).
     url_prefix -- URL prefix passed to the blueprint.
 
     Returns:
@@ -25,7 +25,8 @@ def _factory(partial_module_string, url_prefix):
     return blueprint
 
 
+api_query_github = _factory('api.query_github', '/api/query_github')
 repos_index = _factory('repos.index', '/')
 
 
-all_blueprints = (repos_index,)
+all_blueprints = (api_query_github, repos_index,)
