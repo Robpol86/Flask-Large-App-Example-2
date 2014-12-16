@@ -25,9 +25,10 @@ def _factory(partial_module_string, url_prefix):
     return blueprint
 
 
+api_health = _factory('api.health', '/api/health')
 api_query_github = _factory('api.query_github', '/api/query_github')
 repos_details = _factory('repos.details', '/details')
 repos_index = _factory('repos.index', '/')
 
 
-all_blueprints = (api_query_github, repos_details, repos_index, )
+all_blueprints = (api_health, api_query_github, repos_details, repos_index, )
