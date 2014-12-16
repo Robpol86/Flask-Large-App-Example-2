@@ -28,10 +28,17 @@ SQLite is used as the testing database. It will automatically be created in the 
 To work on the project on your OS X development environment you just clone the git repo and run:
 `pip install -r requirements.txt`
 
+Then you need to setup your MySQL database. Reference `./github_status/config.py` under the `HardCoded` class for
+the MySQL user name and password to create, as well as the database name to create. Give that user `create`, `delete`,
+`drop`, `insert`, `select`, and `update` privileges on that database.
+
+Now run this command to create the schema:
+`./manage.py create_all`
+
 To start the development server locally, run:
 `./manage.py devserver`
 
-Then browse to http://localhost:8080
+Then browse to [http://localhost:5000](http://localhost:5000).
 
 ## Production
 

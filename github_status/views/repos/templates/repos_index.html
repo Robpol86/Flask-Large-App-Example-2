@@ -106,9 +106,9 @@
         });
     </script>
 
-    <script type="application/javascript">
+    {% if table_rows %}<script type="application/javascript">
         $(document).ready(function() {
             $('#repo_table').DataTable();
         } );
-    </script>
+    </script>{% endif %}
 {% endblock %}
