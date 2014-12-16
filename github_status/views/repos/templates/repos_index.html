@@ -39,7 +39,8 @@
                     <h4 class="modal-title">Add Repository</h4>
                 </div>
 
-                <form class="form-inline" role="form">
+                <form id="modal_form" class="form-inline" role="form" action="{{ url_for('api.query_github.query') }}"
+                      method="post">
                     <div class="modal-body">
                         <div class="form-group">
                             <label class="sr-only">GitHub prefix</label>
@@ -47,16 +48,53 @@
                         </div>
                         <div class="form-group">
                             <label for="repo_url_field" class="sr-only">GitHub suffix</label>
-                            <input type="text" class="form-control" id="repo_url_field" placeholder="user/project">
+                            <input type="text" class="form-control" id="repo_url_field" placeholder="user/project"
+                                   name="repo_url">
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <p class="text-danger pull-left" style="line-height: 34px;" id="modal_error_message"></p>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <a href="#" class="btn btn-primary" id="verify_add_button">Verify and Add</a>
+                        <button type="submit" class="btn btn-primary">Verify and Add</button>
                     </div>
                 </form>
 
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+
+    <script type="application/javascript">
+        $(document).ready(function() {
+            $('#modal_form').submit(function(event) {
+                event.preventDefault();
+                var $form = $(this);
+                var target = $form.attr('data-target');
+
+                $('#modal_error_message').html('<i class="fa fa-cog fa-spin"></i>');
+
+                $.ajax({
+                    type: $form.attr('method'),
+                    url: $form.attr('action'),
+                    data: $form.serialize(),
+
+                    success: function(data) {
+                        if (data.success) {
+                            window.location.href = '{{ url_for('.index') }}';
+                        } else {
+                            $('#modal_error_message').text(data.error);
+                        }
+                    },
+
+                    error: function() {
+                        $('#modal_error_message').text('Error: Invalid URL specified.');
+                    }
+
+                });
+            });
+        });
+    </script>
 {% endblock %}

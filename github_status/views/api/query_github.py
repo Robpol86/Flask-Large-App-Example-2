@@ -30,7 +30,7 @@ def get_committers_details(repo_url):
     Tuple, first item is a set of top 3 committers, second item is a string of the latest commit message.
     """
     # Query API.
-    req = requests.get('https://localhost/repos/{}/commits'.format(repo_url))
+    req = requests.get('https://api.github.com/repos/{}/commits'.format(repo_url))
     if not req.ok:
         raise APIError('Invalid GitHub URL specified.')
     try:
@@ -68,7 +68,7 @@ def get_line_count(repo_url):
     for i in xrange(3):
         if i:
             time.sleep(1)  # Sleep on second and third iterations.
-        req = requests.get('https://localhost/repos/{}/stats/contributors'.format(repo_url))
+        req = requests.get('https://api.github.com/repos/{}/stats/contributors'.format(repo_url))
         if req.status_code == 202:
             continue
         if not req.ok:
@@ -91,8 +91,8 @@ def get_line_count(repo_url):
     return line_count
 
 
-@api_query_github.route('/', defaults=dict(add_repo=True), strict_slashes=False, methods=('POST',))
 @api_query_github.route('/update', defaults=dict(add_repo=False), strict_slashes=False, methods=('POST',))
+@api_query_github.route('/', defaults=dict(add_repo=True), strict_slashes=False, methods=('POST',))
 def query(add_repo):
     """Queries GitHub's API for metadata about the repo.
 
