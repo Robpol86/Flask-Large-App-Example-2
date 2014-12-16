@@ -1,8 +1,6 @@
 import json
 
 from flask import current_app
-import httpretty
-import pytest
 
 from github_status.extensions import db
 from github_status.models.repositories import Repository

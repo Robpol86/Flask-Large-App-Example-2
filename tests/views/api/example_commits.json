@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "0b50a3c0dbc515741996fccabcddc23b3995fccf",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-25T01:48:05Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-25T01:48:05Z"
+      },
+      "message": "New setup.py, codecov.io, shields.io.\n\nNormalizing across all of my projects.",
+      "tree": {
+        "sha": "05e65dc7ea70067970d43cd2e7643798612721ab",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/05e65dc7ea70067970d43cd2e7643798612721ab"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/0b50a3c0dbc515741996fccabcddc23b3995fccf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0b50a3c0dbc515741996fccabcddc23b3995fccf",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/0b50a3c0dbc515741996fccabcddc23b3995fccf",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/0b50a3c0dbc515741996fccabcddc23b3995fccf/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4d2050e4609ab7245e7d039a83b9902a425025e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a4d2050e4609ab7245e7d039a83b9902a425025e",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/a4d2050e4609ab7245e7d039a83b9902a425025e"
+      }
+    ]
+  },
+  {
+    "sha": "a4d2050e4609ab7245e7d039a83b9902a425025e",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-05T05:32:41Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-05T05:32:41Z"
+      },
+      "message": "Fixing coverage.\n\nLooks like these coveralls libraries don't work too well on AppVeyor.\nQuick fix is to copy the AppVeyor branch env variable to one named the\nsame as Travis CI's.",
+      "tree": {
+        "sha": "b92b96fd22cd993f5b951bf70c1fd7511fc2d61c",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/b92b96fd22cd993f5b951bf70c1fd7511fc2d61c"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/a4d2050e4609ab7245e7d039a83b9902a425025e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a4d2050e4609ab7245e7d039a83b9902a425025e",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/a4d2050e4609ab7245e7d039a83b9902a425025e",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/a4d2050e4609ab7245e7d039a83b9902a425025e/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/da1e5a260c5ae1d30fc98756dc4076f914770cc1"
+      }
+    ]
+  },
+  {
+    "sha": "da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T04:32:49Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T04:32:49Z"
+      },
+      "message": "Filled out changelog.",
+      "tree": {
+        "sha": "37ff24db57d1c13d256b9eef93e4d089b9b2d08e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/37ff24db57d1c13d256b9eef93e4d089b9b2d08e"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/da1e5a260c5ae1d30fc98756dc4076f914770cc1",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/da1e5a260c5ae1d30fc98756dc4076f914770cc1/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/d69debb2eefc621b01eb441d9d3a4df46fa1d302"
+      }
+    ]
+  },
+  {
+    "sha": "d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T04:11:19Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T04:11:19Z"
+      },
+      "message": "A better reset.",
+      "tree": {
+        "sha": "f0d88c35793bf0fc90ad92aae5d2864826878aba",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/f0d88c35793bf0fc90ad92aae5d2864826878aba"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/d69debb2eefc621b01eb441d9d3a4df46fa1d302",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/d69debb2eefc621b01eb441d9d3a4df46fa1d302/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7"
+      }
+    ]
+  },
+  {
+    "sha": "0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T02:52:54Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T02:52:54Z"
+      },
+      "message": "Fixed tests, changed version.\n\nForgot to run tests. Wasn't showing /all, /fg, or /bg before.",
+      "tree": {
+        "sha": "3963622cffff3ae4bbafae0102a1ada017b2e5cd",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/3963622cffff3ae4bbafae0102a1ada017b2e5cd"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/0062f3bf5ecc64c85370b6b8b7edec8a06a6c5c7/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd2293db97188b4b853e8319c2a76ed698573e7b",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/fd2293db97188b4b853e8319c2a76ed698573e7b",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/fd2293db97188b4b853e8319c2a76ed698573e7b"
+      }
+    ]
+  },
+  {
+    "sha": "fd2293db97188b4b853e8319c2a76ed698573e7b",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T02:43:31Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-04T02:43:31Z"
+      },
+      "message": "New CSBI method. atexit fix, better list_tags().\n\nPrevious GetConsoleScreenBufferInfo code worked everywhere except in\nPython 2.7 x64. Trying a new way for 100% compatibility.\n\nImproved list_tags() sorting.\n\n_reset_colors() sets absolute colors instead of going through\n_set_color(). Since the black background code is 0, which also indicates\nthe user is only setting the foreground color, _reset_colors() should\nset the already-known fg and bg colors itself. Before it was not\nresetting the background color.",
+      "tree": {
+        "sha": "bc0196c3c6df28bad498c5e0e05d0166795ff362",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/bc0196c3c6df28bad498c5e0e05d0166795ff362"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/fd2293db97188b4b853e8319c2a76ed698573e7b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/fd2293db97188b4b853e8319c2a76ed698573e7b",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/fd2293db97188b4b853e8319c2a76ed698573e7b",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/fd2293db97188b4b853e8319c2a76ed698573e7b/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d"
+      }
+    ]
+  },
+  {
+    "sha": "0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T01:29:10Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T01:29:10Z"
+      },
+      "message": "Small tweaks.",
+      "tree": {
+        "sha": "0eb50939099b3a100716189c14b41d0a9e039784",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/0eb50939099b3a100716189c14b41d0a9e039784"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/0c57c3aa458cd1fd1cc2a6cb9ef294ae785e365d/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "43186fde4a23cd74401138fa7870c20852d69e4e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/43186fde4a23cd74401138fa7870c20852d69e4e",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/43186fde4a23cd74401138fa7870c20852d69e4e"
+      }
+    ]
+  },
+  {
+    "sha": "43186fde4a23cd74401138fa7870c20852d69e4e",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T00:53:08Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T00:53:08Z"
+      },
+      "message": "Added WinXP comment.",
+      "tree": {
+        "sha": "f264397252482858f5c218abb4a9b44e90a057e8",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/f264397252482858f5c218abb4a9b44e90a057e8"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/43186fde4a23cd74401138fa7870c20852d69e4e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/43186fde4a23cd74401138fa7870c20852d69e4e",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/43186fde4a23cd74401138fa7870c20852d69e4e",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/43186fde4a23cd74401138fa7870c20852d69e4e/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c6670f99f589357e409dcf884ac2fc5386fca9d3",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/c6670f99f589357e409dcf884ac2fc5386fca9d3",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/c6670f99f589357e409dcf884ac2fc5386fca9d3"
+      }
+    ]
+  },
+  {
+    "sha": "c6670f99f589357e409dcf884ac2fc5386fca9d3",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T00:49:51Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-02T00:49:51Z"
+      },
+      "message": "Updated README/examples, added Windows auto colors\n\nTested out auto colors on Windows with all available backgrounds for\nbest user experience.\n\nUpdated screenshots.",
+      "tree": {
+        "sha": "0d570fef162b19ac936f20fdef33f59bcbdb9019",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/0d570fef162b19ac936f20fdef33f59bcbdb9019"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/c6670f99f589357e409dcf884ac2fc5386fca9d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/c6670f99f589357e409dcf884ac2fc5386fca9d3",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/c6670f99f589357e409dcf884ac2fc5386fca9d3",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/c6670f99f589357e409dcf884ac2fc5386fca9d3/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/7bb3bf66f39ba554b246a7f5a470822f79e796dd"
+      }
+    ]
+  },
+  {
+    "sha": "7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T22:30:46Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T22:30:46Z"
+      },
+      "message": "Fixing example misprint.",
+      "tree": {
+        "sha": "4a1286c9bcf40a246d4b97b18854cc95ad995ccb",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/4a1286c9bcf40a246d4b97b18854cc95ad995ccb"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/7bb3bf66f39ba554b246a7f5a470822f79e796dd",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/7bb3bf66f39ba554b246a7f5a470822f79e796dd/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04"
+      }
+    ]
+  },
+  {
+    "sha": "e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T21:36:05Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T21:36:05Z"
+      },
+      "message": "Increased test coverage.",
+      "tree": {
+        "sha": "04cf4454f5cbf0e067c6b98df0306439ca5b6010",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/04cf4454f5cbf0e067c6b98df0306439ca5b6010"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/e56bc9c0df9c9062abfaf9e2b1095c681c66ff04/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/38e6ae3fe3b5ba870a9f552f695c65984558acd3"
+      }
+    ]
+  },
+  {
+    "sha": "38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T21:06:40Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T21:06:40Z"
+      },
+      "message": "Removing isatty() check, context no atexit.\n\nChecking for isatty() brings more problems than it solves.\n\nWhen using Windows() as a context manager, there is no need to expose\nreset_atexit since it always calls disable() in the end.",
+      "tree": {
+        "sha": "db0934be6564891d8a44240f96c825270a773242",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/db0934be6564891d8a44240f96c825270a773242"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/38e6ae3fe3b5ba870a9f552f695c65984558acd3",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/38e6ae3fe3b5ba870a9f552f695c65984558acd3/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff"
+      }
+    ]
+  },
+  {
+    "sha": "a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T20:54:15Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T20:54:15Z"
+      },
+      "message": "Making Windows.disable() safe.",
+      "tree": {
+        "sha": "516742a3d2295214f355140bcb6852cd4a987c1f",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/516742a3d2295214f355140bcb6852cd4a987c1f"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/a8dacf563a45b81a56acb34c2275e3ce3ed7c4ff/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9400b638da06024a5897b99c36e2afbb9d120088",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9400b638da06024a5897b99c36e2afbb9d120088",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/9400b638da06024a5897b99c36e2afbb9d120088"
+      }
+    ]
+  },
+  {
+    "sha": "9400b638da06024a5897b99c36e2afbb9d120088",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T20:45:58Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T20:45:58Z"
+      },
+      "message": "Reverting travis, supporting detached.\n\nIn py3, out and err streams are _io and behave differently. Instead of\nassuming that sys.__stdout__ and err are guaranteed to be valid, backing\nup whatever used to be sys.stdout and err instead.\n\nTravis OSX image does not currently support Python.",
+      "tree": {
+        "sha": "bc1d3df357003bb0b86bad916180c2e446b471fb",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/bc1d3df357003bb0b86bad916180c2e446b471fb"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/9400b638da06024a5897b99c36e2afbb9d120088",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9400b638da06024a5897b99c36e2afbb9d120088",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/9400b638da06024a5897b99c36e2afbb9d120088",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/9400b638da06024a5897b99c36e2afbb9d120088/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1b04e598f6709b683043d0489928f91565046b2",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a1b04e598f6709b683043d0489928f91565046b2",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/a1b04e598f6709b683043d0489928f91565046b2"
+      }
+    ]
+  },
+  {
+    "sha": "a1b04e598f6709b683043d0489928f91565046b2",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T05:41:21Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T05:41:21Z"
+      },
+      "message": "Trying easy_install pyyaml.",
+      "tree": {
+        "sha": "91c98995297b55412409d22e20e84989dd89b9f3",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/91c98995297b55412409d22e20e84989dd89b9f3"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/a1b04e598f6709b683043d0489928f91565046b2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a1b04e598f6709b683043d0489928f91565046b2",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/a1b04e598f6709b683043d0489928f91565046b2",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/a1b04e598f6709b683043d0489928f91565046b2/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b522136d51963f31c50eb38a2478cbd27672ca73",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/b522136d51963f31c50eb38a2478cbd27672ca73",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/b522136d51963f31c50eb38a2478cbd27672ca73"
+      }
+    ]
+  },
+  {
+    "sha": "b522136d51963f31c50eb38a2478cbd27672ca73",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T05:16:06Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T05:16:06Z"
+      },
+      "message": "Retry x64.",
+      "tree": {
+        "sha": "093e09ec26011bbe74c8dca3b0591385a42604db",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/093e09ec26011bbe74c8dca3b0591385a42604db"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/b522136d51963f31c50eb38a2478cbd27672ca73",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/b522136d51963f31c50eb38a2478cbd27672ca73",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/b522136d51963f31c50eb38a2478cbd27672ca73",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/b522136d51963f31c50eb38a2478cbd27672ca73/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/aa8224c85d76c6c55a465c74ce79d2eb35f4677e"
+      }
+    ]
+  },
+  {
+    "sha": "aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T04:03:10Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T04:03:10Z"
+      },
+      "message": "Trying again with .git.\n\nInstead of deleting .git directory, which breaks coveralls, moving it up\none directory and then back.",
+      "tree": {
+        "sha": "bcd2b201c7e4f0c8123e38a531ee88a0c356922e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/bcd2b201c7e4f0c8123e38a531ee88a0c356922e"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/aa8224c85d76c6c55a465c74ce79d2eb35f4677e",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/aa8224c85d76c6c55a465c74ce79d2eb35f4677e/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3476416d38d327828d5c1d82c9c5a4d7108895fa",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/3476416d38d327828d5c1d82c9c5a4d7108895fa",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/3476416d38d327828d5c1d82c9c5a4d7108895fa"
+      }
+    ]
+  },
+  {
+    "sha": "3476416d38d327828d5c1d82c9c5a4d7108895fa",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T03:50:14Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T03:50:14Z"
+      },
+      "message": "Fixing pytest skip, pip fix for Windows.\n\npy3.4 still giving me problems on Windows. It apparently already removed\n--no-clean even though the bug tracker stated they're un-deprecating it.\n\nRemoving the .git file during install for Windows CI. Hopefully that\nfixes it on all versions of Python on Windows.",
+      "tree": {
+        "sha": "6921c255e946cf478285d049d0d848608ac21b4c",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/6921c255e946cf478285d049d0d848608ac21b4c"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/3476416d38d327828d5c1d82c9c5a4d7108895fa",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/3476416d38d327828d5c1d82c9c5a4d7108895fa",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/3476416d38d327828d5c1d82c9c5a4d7108895fa",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/3476416d38d327828d5c1d82c9c5a4d7108895fa/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/a3c9b7f12a56df7293d0bcefa175e1ab2516484e"
+      }
+    ]
+  },
+  {
+    "sha": "a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T03:40:59Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T03:40:59Z"
+      },
+      "message": "Auto background colors, simple Windows test.\n\nContext manager has same arguments as static method.\n\nExample shows off color stripping too.",
+      "tree": {
+        "sha": "a5ab55361f5b71af831ff6e67fb04326433c82d5",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/a5ab55361f5b71af831ff6e67fb04326433c82d5"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/a3c9b7f12a56df7293d0bcefa175e1ab2516484e",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/a3c9b7f12a56df7293d0bcefa175e1ab2516484e/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/aebfacfcd60321cc9aefdf9558e75e36d7b64711"
+      }
+    ]
+  },
+  {
+    "sha": "aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:53:26Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:53:26Z"
+      },
+      "message": "Adding coveralls token.",
+      "tree": {
+        "sha": "82334630db5cb92753148d278cab2d032d7687a7",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/82334630db5cb92753148d278cab2d032d7687a7"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/aebfacfcd60321cc9aefdf9558e75e36d7b64711",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/aebfacfcd60321cc9aefdf9558e75e36d7b64711/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/61e6ead4c234945aa10575e01de6263bcf3dcd3c"
+      }
+    ]
+  },
+  {
+    "sha": "61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:16:45Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:16:45Z"
+      },
+      "message": "Need to manually install pytest.\n\nsetup.py seems to fail to install pytest unless I run the test command\ntwice. Installing it manually.",
+      "tree": {
+        "sha": "e15cd93e264ba8f79bf9fb56a9233c268cd84c05",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/e15cd93e264ba8f79bf9fb56a9233c268cd84c05"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/61e6ead4c234945aa10575e01de6263bcf3dcd3c",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/61e6ead4c234945aa10575e01de6263bcf3dcd3c/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6441530769d5a4f874159c4d93994cbb9131df8e",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/6441530769d5a4f874159c4d93994cbb9131df8e",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/6441530769d5a4f874159c4d93994cbb9131df8e"
+      }
+    ]
+  },
+  {
+    "sha": "6441530769d5a4f874159c4d93994cbb9131df8e",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:05:14Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T02:05:14Z"
+      },
+      "message": "Trying another way to download get-pip.py",
+      "tree": {
+        "sha": "08dceb28fe2e60d9bcfee15b3de4b9b905401c87",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/08dceb28fe2e60d9bcfee15b3de4b9b905401c87"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/6441530769d5a4f874159c4d93994cbb9131df8e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/6441530769d5a4f874159c4d93994cbb9131df8e",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/6441530769d5a4f874159c4d93994cbb9131df8e",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/6441530769d5a4f874159c4d93994cbb9131df8e/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "921ca63cef1170f762b9385e9dc8ae4e62894986",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/921ca63cef1170f762b9385e9dc8ae4e62894986",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/921ca63cef1170f762b9385e9dc8ae4e62894986"
+      }
+    ]
+  },
+  {
+    "sha": "921ca63cef1170f762b9385e9dc8ae4e62894986",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:41:29Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:41:29Z"
+      },
+      "message": "Stupid mistake.\n\nI forgot to change one line.",
+      "tree": {
+        "sha": "06e9b9f7d7a9b6d50736dd28ba7b2e626076167a",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/06e9b9f7d7a9b6d50736dd28ba7b2e626076167a"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/921ca63cef1170f762b9385e9dc8ae4e62894986",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/921ca63cef1170f762b9385e9dc8ae4e62894986",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/921ca63cef1170f762b9385e9dc8ae4e62894986",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/921ca63cef1170f762b9385e9dc8ae4e62894986/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098"
+      }
+    ]
+  },
+  {
+    "sha": "49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:36:57Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:36:57Z"
+      },
+      "message": "Trying another download command for windows.",
+      "tree": {
+        "sha": "df45cbc45b8e16a54dc77d04b7092f0fe49eecc7",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/df45cbc45b8e16a54dc77d04b7092f0fe49eecc7"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/49ef0d22ba9eaa0fea0be364f08b8b1580fc7098/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd"
+      }
+    ]
+  },
+  {
+    "sha": "ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:25:19Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T01:25:19Z"
+      },
+      "message": "Fixed missing pip and IndexError on cleanup.\n\npip not installed in 27 and 33 versions of Python in the AppVeyor\nenvironment. Installing it myself.\n\nOn Windows doing `pip install .` raises an IndexError when trying to\ndelete the copied .git directory. Adding --no-clean seems to fix it in\nmy VM.",
+      "tree": {
+        "sha": "78626e014a7942f327f4e15bdb4ce29e46fc5146",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/78626e014a7942f327f4e15bdb4ce29e46fc5146"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/ec6ef148c56e5d52e16088f0d1d8b1924186d5fd/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9386e8a2edde7a866c10584198cd9a90c64d4062",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9386e8a2edde7a866c10584198cd9a90c64d4062",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/9386e8a2edde7a866c10584198cd9a90c64d4062"
+      }
+    ]
+  },
+  {
+    "sha": "9386e8a2edde7a866c10584198cd9a90c64d4062",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T00:28:47Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-11-01T00:28:47Z"
+      },
+      "message": "Adding OSX and Windows support.",
+      "tree": {
+        "sha": "4687e7f885add448d4e8ce67ebe5003dd61cdd86",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/4687e7f885add448d4e8ce67ebe5003dd61cdd86"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/9386e8a2edde7a866c10584198cd9a90c64d4062",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9386e8a2edde7a866c10584198cd9a90c64d4062",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/9386e8a2edde7a866c10584198cd9a90c64d4062",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/9386e8a2edde7a866c10584198cd9a90c64d4062/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9188217d1f5121885bfec2b853498bc56eea8850",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9188217d1f5121885bfec2b853498bc56eea8850",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/9188217d1f5121885bfec2b853498bc56eea8850"
+      }
+    ]
+  },
+  {
+    "sha": "9188217d1f5121885bfec2b853498bc56eea8850",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T05:57:38Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T05:57:38Z"
+      },
+      "message": "Worked on docstrings.",
+      "tree": {
+        "sha": "599c9f6183947d1c9d16197987313416480545ee",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/599c9f6183947d1c9d16197987313416480545ee"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/9188217d1f5121885bfec2b853498bc56eea8850",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9188217d1f5121885bfec2b853498bc56eea8850",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/9188217d1f5121885bfec2b853498bc56eea8850",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/9188217d1f5121885bfec2b853498bc56eea8850/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0013f57471ca147286ff14ff8980413708c96827",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0013f57471ca147286ff14ff8980413708c96827",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/0013f57471ca147286ff14ff8980413708c96827"
+      }
+    ]
+  },
+  {
+    "sha": "0013f57471ca147286ff14ff8980413708c96827",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T05:21:25Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T05:21:25Z"
+      },
+      "message": "Holy shit it works.\n\nI think this is code complete. I just need to work on docstrings and the\nREADME/screenshots.\n\nGot all colors working. Color parity between Windows and Linux.\n\nResetting colors on disable. Optionally disable atexit.\n\nUnlike linux/osx/unix, I have access to the current background color of\nthe user's terminal. Adding optional feature to automatically select\nlight or dark text to make it readable.\n\nI can't believe I did this in 5 days working on this after work lol.",
+      "tree": {
+        "sha": "1cedb58a60c3fb5baac688cc9432ac6edf09d826",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/1cedb58a60c3fb5baac688cc9432ac6edf09d826"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/0013f57471ca147286ff14ff8980413708c96827",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/0013f57471ca147286ff14ff8980413708c96827",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/0013f57471ca147286ff14ff8980413708c96827",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/0013f57471ca147286ff14ff8980413708c96827/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4232ea941b44128282cac488b2a99d8760014387",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/4232ea941b44128282cac488b2a99d8760014387",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/4232ea941b44128282cac488b2a99d8760014387"
+      }
+    ]
+  },
+  {
+    "sha": "4232ea941b44128282cac488b2a99d8760014387",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T02:52:50Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-31T02:52:50Z"
+      },
+      "message": "Started work on native Windows support.\n\nColorama was nice but it was a dependency. I'm trying to keep things\nsimple and straightforward. Plus it only supported dark colors.\n\nStarted working on Windows support for dark and light colors. Background\ncolors aren't yet fully implemented, neither are color resetting.",
+      "tree": {
+        "sha": "759ea7faa0fef93576e7196cee58f3c6b9b16726",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/759ea7faa0fef93576e7196cee58f3c6b9b16726"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/4232ea941b44128282cac488b2a99d8760014387",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/4232ea941b44128282cac488b2a99d8760014387",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/4232ea941b44128282cac488b2a99d8760014387",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/4232ea941b44128282cac488b2a99d8760014387/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d76972df83f85ec01d4e752deaef49d723b9593a",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/d76972df83f85ec01d4e752deaef49d723b9593a",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/d76972df83f85ec01d4e752deaef49d723b9593a"
+      }
+    ]
+  },
+  {
+    "sha": "d76972df83f85ec01d4e752deaef49d723b9593a",
+    "commit": {
+      "author": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-27T07:49:25Z"
+      },
+      "committer": {
+        "name": "Robpol86",
+        "email": "robpol86@gmail.com",
+        "date": "2014-10-27T07:49:25Z"
+      },
+      "message": "Update README.md\n\nTravis is stuck, doing this insignificant change to kickstart it.",
+      "tree": {
+        "sha": "ae74b5c2c9de04d5a57f4dc6c94547780e5279fe",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/git/trees/ae74b5c2c9de04d5a57f4dc6c94547780e5279fe"
+      },
+      "url": "https://api.github.com/repos/Robpol86/colorclass/git/commits/d76972df83f85ec01d4e752deaef49d723b9593a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/Robpol86/colorclass/commits/d76972df83f85ec01d4e752deaef49d723b9593a",
+    "html_url": "https://github.com/Robpol86/colorclass/commit/d76972df83f85ec01d4e752deaef49d723b9593a",
+    "comments_url": "https://api.github.com/repos/Robpol86/colorclass/commits/d76972df83f85ec01d4e752deaef49d723b9593a/comments",
+    "author": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Robpol86",
+      "id": 3413339,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3413339?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Robpol86",
+      "html_url": "https://github.com/Robpol86",
+      "followers_url": "https://api.github.com/users/Robpol86/followers",
+      "following_url": "https://api.github.com/users/Robpol86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Robpol86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Robpol86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Robpol86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Robpol86/orgs",
+      "repos_url": "https://api.github.com/users/Robpol86/repos",
+      "events_url": "https://api.github.com/users/Robpol86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Robpol86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9b1ceda8635f404403b0963717f217d4aa9b303d",
+        "url": "https://api.github.com/repos/Robpol86/colorclass/commits/9b1ceda8635f404403b0963717f217d4aa9b303d",
+        "html_url": "https://github.com/Robpol86/colorclass/commit/9b1ceda8635f404403b0963717f217d4aa9b303d"
+      }
+    ]
+  }
+]
