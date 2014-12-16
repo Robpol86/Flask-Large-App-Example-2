@@ -8,7 +8,7 @@
         <h1 class="page-header">Tracked Repositories</h1>
     </div>
 
-    <table class="table table-condensed table-striped table-bordered">
+    <table class="table table-condensed table-striped table-bordered" id="repo_table">
         <thead>
             <tr>
                 <th>Repository URL</th>
@@ -18,6 +18,13 @@
         </thead>
         <tbody>
             {% for row in table_rows %}
+                <tr>
+                    <td><a href="#">{{ row.url }}</a></td>
+                    <td>{% for user in row.top_committers %}
+                        <a href="https://github.com/{{ user|escape }}" target="_blank">{{ user|escape }}</a>
+                    {% endfor %}</td>
+                    <td>{{ row.last_commit|truncate(60) }}</td>
+                </tr>
             {% else %}
                 <tr>
                     <td colspan="3" style="text-align: center;">
@@ -96,5 +103,11 @@
                 });
             });
         });
+    </script>
+
+    <script type="application/javascript">
+        $(document).ready(function() {
+            $('#repo_table').DataTable();
+        } );
     </script>
 {% endblock %}

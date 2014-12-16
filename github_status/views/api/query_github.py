@@ -42,7 +42,7 @@ def get_committers_details(repo_url):
 
     # Get last commit details and top 3 committers.
     last_commit_message = json_data[0].get('commit', {}).get('message', '')
-    last_fifty = [a for a in (c.get('author', {}).get('login', '') for c in json_data[:50]) if a]
+    last_fifty = [a for a in ((c.get('author', {}) or {}).get('login', '') for c in json_data[:50]) if a]
     top_three = set()
     for author in sorted(last_fifty, key=last_fifty.count, reverse=True):
         top_three.add(author)
