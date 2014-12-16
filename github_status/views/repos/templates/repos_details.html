@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block container %}
+    <div>
+        <h1 class="page-header">{{ url }} Details</h1>
+    </div>
+
+    <table class="table table-condensed table-striped table-bordered" id="repo_table">
+        <tbody>
+            <tr>
+                <th style="text-align: right;">GitHub URL</th>
+                <td><a href="https://github.com/{{ url }}" target="_blank">github.com/{{ url }}</a></td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Total Line Count</th>
+                <td>{{ line_count }}</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Top 3 Committers</th>
+                <td>
+                    {% for user in top_committers %}
+                        <a href="https://github.com/{{ user|escape }}" target="_blank">{{ user|escape }}</a>
+                    {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Last Commit Message</th>
+                <td>{{ last_commit|whitelist }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

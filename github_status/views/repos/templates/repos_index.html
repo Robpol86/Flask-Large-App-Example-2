@@ -19,7 +19,8 @@
         <tbody>
             {% for row in table_rows %}
                 <tr>
-                    <td><a href="#">{{ row.url }}</a></td>
+                    <td><a href="{{ url_for('repos.details.index', owner=row.url.split('/')[0],
+                            project=row.url.split('/')[1]) }}">{{ row.url }}</a></td>
                     <td>{% for user in row.top_committers %}
                         <a href="https://github.com/{{ user|escape }}" target="_blank">{{ user|escape }}</a>
                     {% endfor %}</td>
