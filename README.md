@@ -46,8 +46,22 @@ Running the project in a production environment requires installing requirements
 server. Run these commands after cloning the git repo or SCP'ing the project files to the host:
 
 * `pip install -r requirements.txt`
-* `sudo mkdir /var/log/github_status; sudo chown ghs:root /var/log/github_status`
-* `./manage.py prodserver -p 8080 -l /var/log/github_status &`
+* `sudo mkdir /var/log/github_status /etc/github_status; sudo chown ghs:root /var/log/github_status /etc/github_status`
+
+Create the GitHub Status config file `/etc/github_status/config.yml` with something like this:
+
+```yaml
+_SQLALCHEMY_DATABASE_DATABASE: 'github_status'
+_SQLALCHEMY_DATABASE_HOSTNAME: 'localhost'
+_SQLALCHEMY_DATABASE_PASSWORD: 'github_p@ssword'
+_SQLALCHEMY_DATABASE_USERNAME: 'github_service'
+```
+
+Now run this command to create the schema:
+`./manage.py create_all --config_prod`
+
+Finally start the production server:
+`./manage.py prodserver --config_prod -p 8080 -l /var/log/github_status &`
 
 The above commands assumes you've created the `ghs` user to run the application and will listen on TCP port 8080, which a
 load balancer or such will forward traffic to. You may want to write an init script to have the application run as a
