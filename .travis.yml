@@ -6,7 +6,6 @@ python:
 install:
   - pip install -r requirements.txt -r tests/requirements.txt
   - pip install robpol86-codecov
-  - pip install .
 
 script:
   - py.test --cov-report term-missing --cov github_status tests
