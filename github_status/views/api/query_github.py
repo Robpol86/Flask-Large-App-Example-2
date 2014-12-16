@@ -124,7 +124,7 @@ def query(add_repo):
         line_count = get_line_count(repo_url)
     except APIError as e:
         return jsonify(success=False, error=str(e))
-    top_three_str = ' '.join(top_three)
+    top_three_str = ' '.join(sorted(top_three))
 
     # Add to database.
     payload = dict(url=repo_url, line_count=line_count, top_committers=top_three_str, last_commit=last_commit_message)
